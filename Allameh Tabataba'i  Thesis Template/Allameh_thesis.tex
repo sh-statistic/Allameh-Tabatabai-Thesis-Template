@@ -1,0 +1,76 @@
+\documentclass[a4paper,11pt]{report}
+\input{NadSymb}                %    < این فایل شامل دستوراتی برای نمادگذاری‌های می‌باشد آن‌ها استفاده کرد>
+\input{commands}               % <در این فایل، دستورها و تنظیمات مورد نیاز، آورده شده است>
+\input{jeld_info}				 %		< به این فایل بروید و تغییرات لازم را انجام بدهید >
+%
+%-------------------------------------------------------------------------------------------------------------------------------------
+\begin{document}
+\include{cover_fa}									%		صفحه اول به فارسی
+\include{taeid}										%		صفحه تایید هیات داوران
+\setlength{\baselineskip}{1.3\baselineskip}
+\include{TashVaGad}                              %    صفحه مربوط به تشکر و قدردانی
+\doublespacing
+\pagenumbering{harfi}                                       %	سبک شمارش صفحات
+\setlength{\baselineskip}{1.1\baselineskip}
+\include{abstract_fa}								%		چکیده	
+\tableofcontents\newpage
+%\listoftables\newpage						         %	فهرست جدول‌ها
+\listoffigures\newpage											%		فهرست شکل‌ها
+
+\include{list_symb}						    	    	%		 فهرست نمادهای بکار رفته
+\pagenumbering{none}
+
+%                                               -------------------------------------------------------------
+%							   نام فایل هر فصل را به صورت جداگانه در داخل علامت مجموعه قرار دهید
+\pagenumbering{arabic}
+\doublespacing
+\setlength{\baselineskip}{1.1\baselineskip}   %     فاصله بین سطر ها
+%\mainmatter
+\include{chap1}								    		%		اضافه نمودن فصل اول
+\include{chap2}										    %		اضافه نمودن فصل دوم
+%\include{chap3}	                                        %		اضافه نمودن فصل سوم
+%\include{chap4}	                                        %		اضافه نمودن فصل چهارم
+%\include{chap5}                                         %		اضافه نمودن فصل پنجم
+%\include{Conclusion}                                  %		اضافه نمودن فصل نتیجه گیری
+%                                         ------------------------------------------------------------------
+%			  		                نام فایل هر قسمت از ضمیمه را به صورت جداگانه وارد کنید
+% 
+\appendix
+\doublespacing
+\setlength{\baselineskip}{1\baselineskip}
+%\include{peyvast1}							    	%		اضافه نمودن ضمیمه 
+%                                      -----------------------------------------------------------------------
+%
+                                      %    مقالات مستخرج از پایان نامه 	خود را در این قسمت وارد کنید.
+\doublespacing 
+%\include{Papers}
+
+                                                      %مراجع با یکی از سه روش زیر ایجاد می شود.
+                                                                      %توجه   توجه   توجه
+                 %(براي ايجاد ارجاها بصورت پارانتر به جاي كروشه به سطر 16-18 فایل  commands مراجعه کنید).
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 1- برای ایجاد مرجع‌ها با شماره دو سطر زیر را فعال کنید  (الگوی گروه رياضي).
+%\bibliographystyle{plain-fa}%{asa-fa}%      مرجع‌ها%
+%\bibliography{MyReferences}
+% 2- برای ایجاد مرجع‌ها با اسامی و سال دو سطر زیر را فعال کنید  (الگوی گروه آمار).
+\bibliographystyle {asa-fa}% {unsrt-fa}%   مرجع‌ها%
+\bibliography{MyReferences}
+                                                                           
+% 3- برای ایجاد مرجع‌ها با شماره سطر زیر را فعال کنید (بدون ايجاد فابل بيب)
+%\include{references}            	                	%		 مرجع‌ها
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\include{dicfa2en}						    	    	 %		واژه‌نامه انگلیسی به فارسی
+
+                                           % براي ايجاد نمايه سه سطر زير را فعال نماييد.        
+%\refstepcounter{chapter}
+%\addcontentsline{toc}{chapter}{نمایه}
+%\printindex									        	%		دستور ظاهر شدن نمایه‌ها
+
+\doublespacing
+\setlength{\baselineskip}{1\baselineskip}
+\include{abstract_en}						        	% 	چکیده انگلیسی
+\singlespacing
+\include{cover_en}							        	%		روی جلد انگلیسی
+%
+\end{document}

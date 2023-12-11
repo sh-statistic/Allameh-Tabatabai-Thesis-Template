@@ -1,0 +1,68 @@
+This is BibTeX, Version 0.99d (TeX Live 2023)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Allameh_thesis.aux
+A level-1 auxiliary file: cover_fa.aux
+A level-1 auxiliary file: taeid.aux
+A level-1 auxiliary file: TashVaGad.aux
+A level-1 auxiliary file: abstract_fa.aux
+A level-1 auxiliary file: list_symb.aux
+A level-1 auxiliary file: chap1.aux
+A level-1 auxiliary file: chap2.aux
+The style file: asa-fa.bst
+A level-1 auxiliary file: abstract_en.aux
+A level-1 auxiliary file: cover_en.aux
+Database file #1: MyReferences.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--empty booktitle in abdullah2013
+Warning--empty booktitle in abidin2010
+Warning--empty booktitle in artiles2004
+Warning--empty publisher in Azizi2021
+Warning--empty booktitle in gandhi2016
+Warning--empty booktitle in mishra2017
+Warning--empty booktitle in rusu2013
+Warning--empty booktitle in sambrekar2018
+Warning--empty booktitle in verma2020
+
+Done.
+You've used 12 entries,
+            3225 wiz_defined-function locations,
+            831 strings with 8325 characters,
+and the built_in function-call counts, 6850 in all, are:
+= -- 585
+> -- 292
+< -- 19
++ -- 113
+- -- 93
+* -- 572
+:= -- 1089
+add.period$ -- 22
+call.type$ -- 12
+change.case$ -- 81
+chr.to.int$ -- 12
+cite$ -- 21
+duplicate$ -- 309
+empty$ -- 477
+format.name$ -- 145
+if$ -- 1520
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 108
+newline$ -- 92
+num.names$ -- 48
+pop$ -- 122
+preamble$ -- 1
+purify$ -- 79
+quote$ -- 0
+skip$ -- 218
+stack$ -- 0
+substring$ -- 370
+swap$ -- 103
+text.length$ -- 7
+text.prefix$ -- 0
+top$ -- 2
+type$ -- 102
+warning$ -- 9
+while$ -- 61
+width$ -- 0
+write$ -- 164
+(There were 9 warnings)

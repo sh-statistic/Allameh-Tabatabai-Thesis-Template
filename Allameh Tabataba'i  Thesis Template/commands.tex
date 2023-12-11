@@ -1,0 +1,176 @@
+% در این فایل، دستورها و تنظیمات مورد نیاز، آورده شده است.
+%-------------------------------------------------------------------------------------------------------------------
+
+% در ورژن جدید زی‌پرشین برای تایپ متن‌های ریاضی، این سه بسته، حتماً باید فراخوانی شود
+\usepackage{amsthm,amssymb,amsmath}
+% بسته‌ای برای تنطیم حاشیه‌های بالا، پایین، چپ و راست صفحه
+\usepackage[top=40mm, bottom=35mm, left=25mm, right=30mm]{geometry}
+% بسته‌‌ای برای ظاهر شدن شکل‌ها و تصاویر متن
+\usepackage{graphicx}
+\usepackage{xcolor}
+%\usepackage{hyperref} 							% 	PDF links
+\usepackage{setspace} 				    		% 	for switching between double/single space in document
+\graphicspath{{images}}
+\usepackage{verbatim}
+
+\usepackage{natbib}                             %   برای ظاهر شدن مراجع فارسی درصورت استفاده از بیب فایل%
+                                              
+                    %  براي ارجاعات با پرانتز سطر فوق را فعال كرده و سطر زير را غير فعال كنيد.
+%\usepackage[nonamebreak,square]{natbib}%nonamebreak,numbers,
+
+%\usepackage{tocbibind}  % بسته‌ای برای ظاهر شدن «مراجع» و «نمایه» در فهرست مطالب
+
+% بسته‌ای برای رسم کادر
+\usepackage{framed} 
+% بسته‌‌ای برای چاپ شدن خودکار تعداد صفحات در صفحه «معرفی پایان‌نامه»
+\usepackage{lastpage}
+% بسته‌‌ای برای ایجاد دیاگرام‌های مختلف
+\usepackage[all]{xy}
+% بسته‌ و دستوراتی برای ایجاد لینک‌های رنگی با امکان جهش
+\usepackage[pdfmenubar=true,pagebackref=false,colorlinks=true,linkcolor=blue,citecolor=magenta,linktoc=none]{hyperref}
+% چنانچه قصد پرینت گرفتن نوشته خود را دارید، خط بالا را غیرفعال و  از دستور زیر استفاده کنید چون در صورت استفاده از دستور زیر‌‌، 
+% لینک‌ها به رنگ سیاه ظاهر خواهند شد که برای پرینت گرفتن، مناسب‌تر است
+%\usepackage[pagebackref=false]{hyperref}
+% بسته‌ لازم برای تنظیم سربرگ‌ها
+\usepackage{fancyhdr}
+% بسته‌ای برای ظاهر شدن «مراجع» و «نمایه» در فهرست مطالب
+\usepackage[nottoc]{tocbibind}
+% دستورات مربوط به ایجاد نمایه
+\usepackage{makeidx}
+\makeindex
+ 
+\setcounter{tocdepth}{4}                                        %دستوری برای ایجاد زیر بخش‌های تودرتو همراه با شماره در فهرست
+\setcounter{secnumdepth}{4}
+\usepackage{textcomp}         %بسته‌ای برای غیر قابل کپی برداری شدن فایل پی دی اف
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %                                                       ---------------------------------------------------------		
+ 	                                      %   فراخوانی بسته زی‌پرشین و تعریف قلم فارسی و انگلیسی %
+ 	                                                             %XePersian  دستورات مربوط به 
+\usepackage{xepersian}
+\settextfont[Scale=1.15]{XB Niloofar}
+\setdigitfont{XB Niloofar}
+\setlatintextfont{LinLibertine}
+%\setdigitfont[Scale=1]{Times New Roman}			        
+% 																	-------------------------------------
+% از revision 118 زی‌پرشین به بعد، وارد کردن دستور زیر لازم نیست. توجه داشته باشید که در صورت  غیرفعال کردن این %دستور،
+% از فونت پیش‌فرض لاتک برای کلمات انگلیسی استفاده خواهد شد.
+\setlatintextfont[ExternalLocation,BoldFont={lmroman10-bold},BoldItalicFont={lmroman10-bolditalic},ItalicFont={lmroman10-italic}]{lmroman10-regular}
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% چنانچه می‌خواهید اعداد در فرمول‌ها، انگلیسی نباشد، خط زیر را غیرفعال کنید
+\DefaultMathDigits
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% تعریف قلم‌های فارسی و انگلیسی اضافی برای استفاده در بعضی از قسمت‌های متن
+\defpersianfont\nastaliq[Scale=2]{IranNastaliq}
+\defpersianfont\chapternumber[Scale=1.5]{XB Niloofar}
+\defpersianfont\titr[Scale=1]{XB Titre}
+\settextfont{Persian Modern}
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%% دستوری برای حذف کلمه «چکیده»
+%\renewcommand{\abstractname}{}
+%% دستوری برای حذف کلمه «abstract»
+%\renewcommand{\latinabstract}{}
+% دستوری برای تغییر نام کلمه «اثبات» به «برهان»
+\renewcommand\proofname{\textbf{برهان}}
+% دستوری برای تغییر نام کلمه «کتاب‌نامه» به «مراجع»
+\renewcommand{\bibname}{مرجع‌ها}
+%دستوری برای اینکه لیست جدول و شکل به فهرست تبدیل شود:
+\def\listfigurename{\if@RTL List of Figures \else فهرست‌ شکل‌‌ها \fi}
+\def\listtablename{\if@RTL List of Tables ‌\else  فهرست جدول‌ها\fi}
+% دستوری برای تعریف واژه‌نامه انگلیسی به فارسی
+\newcommand\persiangloss[2]{#1\hfill\lr{#2}\\}
+% دستوری برای تعریف واژه‌نامه فارسی به انگلیسی 
+\newcommand\englishgloss[2]{#2\dotfill\lr{#1}\\}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\blockmatrix}[3]{%These end of the line comments are neccessary
+\begin{minipage}[t][#2][c]{#1}%
+\center%
+#3%
+\end{minipage}%
+}%
+\newcommand{\fblockmatrix}[3]{%
+\fbox{%
+\begin{minipage}[t][#2][c]{#1}%
+\center%
+#3%
+\end{minipage}%
+}%
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% تعریف و نحوه ظاهر شدن عنوان قضیه‌ها، تعریف‌ها، مثال‌ها و ...
+\newtheorem{theo}{قضیه}[section]
+\renewcommand{\thetheo}{\arabic{theo}.\arabic{section}.\arabic{chapter}}
+\newcommand{\mored}[2]{{\large \theo{\bf #2.} \label{#1}}}
+\newtheorem{lem}{لم}[section]
+\renewcommand{\thelem}{\arabic{lem}.\arabic{section}.\arabic{chapter}}
+%\newcommand{\mored}[2]{{\large \lem{\bf #2.} \label{#1}}}
+\newtheorem{example}{مثال}[section]
+%\renewcommand{\theexample}{\arabic{example}.\arabic{section}.\arabic{chapter}}
+%\newcommand{\mored}[2]{{\large \example{\bf #2.} \label{#1}}}
+
+\theoremstyle{definition}
+\newtheorem{definition}{تعریف}[section]
+%\theoremstyle{theorem}
+%\newtheorem{theorem}[theo]{قضیه}
+%\newtheorem{lemma}[theo]{لم}
+\newtheorem{proposition}[theo]{گزاره}
+\newtheorem{corollary}[definition]{نتیجه}
+\newtheorem{remark}[definition]{ملاحظه}
+%\theoremstyle{definition}
+%\newtheorem{example}[definition]{مثال}
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% تعریف دستورات جدید برای خلاصه نویسی و راحتی کار در هنگام تایپ فرمول‌های ریاضی
+\newcommand{\bR}{\mathbb{R}}
+\newcommand{\cB}{\mathcal{B}}
+\newcommand{\cO}{\mathcal{O}}
+\newcommand{\cG}{\mathcal{G}}
+\newcommand{\cU}{\mathcal{U}}
+\newcommand{\cK}{\mathcal{K}}
+\newcommand{\cS}{\mathcal{S}}
+\newcommand{\rM}{\mathrm{M}}
+\newcommand{\rC}{\mathrm{C}}
+\newcommand{\rV}{\mathrm{V}}
+\newcommand{\ls}{\mathrm{LSC}_{+}(X)}
+\newcommand{\ce}{\mathrm{C}^{*}(X)}
+\newcommand{\lsc}{\mathrm{LSC}}
+\newcommand{\fB}{\mathfrak{B}}
+\newcommand{\fM}{\mathfrak{M}}
+\newcommand{\bt}{\begin{theorem}}
+\newcommand{\et}{\end{theorem}}
+\newcommand{\bl}{\begin{lemma}}
+\newcommand{\el}{\end{lemma}}
+\newcommand{\bc}{\begin{corollary}}
+\newcommand{\ec}{\end{corollary}}
+\newcommand{\bp}{\begin{proof}}
+\newcommand{\ep}{\end{proof}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% دستورهایی برای سفارشی کردن سربرگ صفحات
+\csname@twosidetrue\endcsname
+\pagestyle{fancy}
+\setlength{\headheight}{16pt}
+\fancyhf{} 
+\fancyhead[OL,EL]{\thepage}
+\fancyhead[OR]{\small\rightmark}
+\fancyhead[ER]{\small\leftmark}
+\renewcommand{\chaptermark}[1]{%
+\markboth{\thechapter.\ #1}{}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% دستورهایی برای سفارشی کردن صفحات اول فصل‌ها
+\makeatletter
+\def\@makechapterhead#1{%
+   \vspace*{-30\p@}% default: 50pt
+   {\parindent \z@ %\raggedleft \normalfont% default: \raggedright
+     \ifnum \c@secnumdepth >\m@ne
+      \begin{flushleft}   
+         \huge\bfseries \@chapapp\space \thechapter
+         \par\nobreak
+         \vskip 20\p@% default: 20\p@
+     \fi
+     \interlinepenalty\@M
+     \Huge \bfseries #1\par\nobreak
+     \vskip 120\p@
+     \end{flushleft}
+   }}
+ \makeatother
