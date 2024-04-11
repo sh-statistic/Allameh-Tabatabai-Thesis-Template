@@ -1,0 +1,37 @@
+\chapter{کدهای زبان برنامه‌نویسی\lr{Python}}
+
+
+% دستورات زیر برای زیبایی کدها در قسمت پیوست می‌باشد.
+\lstset{  
+	basicstyle=\ttfamily, 
+	numbers=left,                   
+	numberstyle=\tiny\color{blue},  
+	stepnumber=1,                
+	numbersep=5pt,                
+	backgroundcolor=\color{gray!10},  
+	showspaces=false,              
+	showstringspaces=false,        
+	showtabs=false,                
+	rulecolor=\color{black},         
+	tabsize=2,                     
+	captionpos=b,                   
+	breaklines=true,                
+	breakatwhitespace=false,        
+	keywordstyle=\color{purple},      
+	commentstyle=\color{green},  
+	stringstyle=\color{red}{ForestGreen}      
+}
+
+در این قسمت کدهای مربوط به نرم افزار شما قرار دارد.
+\begin{latin}
+	\begin{lstlisting}[language=Python, caption={Example Python code}]
+	# Import Libraries
+	import numpy as np
+	import matplotlib.pyplot as plt
+	
+	x = np.linspace(0, 2*np.pi, 100)
+	y = np.sin(x)
+	plt.plot(x, y)
+	\end{lstlisting}
+\end{latin}
+

@@ -1,0 +1,123 @@
+This is BibTeX, Version 0.99d (TeX Live 2023)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Allameh_thesis.aux
+A level-1 auxiliary file: cover_fa.aux
+A level-1 auxiliary file: taeid.aux
+A level-1 auxiliary file: TashVaGad.aux
+A level-1 auxiliary file: abstract_fa.aux
+A level-1 auxiliary file: list_symb.aux
+A level-1 auxiliary file: chap1.aux
+A level-1 auxiliary file: chap2.aux
+A level-1 auxiliary file: chap3.aux
+A level-1 auxiliary file: chap4.aux
+A level-1 auxiliary file: peyvast1.aux
+The style file: asa-fa.bst
+A level-1 auxiliary file: dicfa2en.aux
+A level-1 auxiliary file: abstract_en.aux
+A level-1 auxiliary file: cover_en.aux
+Database file #1: MyReferences.bib
+You're missing a field name---line 11 of file MyReferences.bib
+ :  
+ :  %      ISSN = {0010-4620},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 26 of file MyReferences.bib
+ :  
+ :  %      ISSN = {0029-5981},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 48 of file MyReferences.bib
+ :  
+ :  %      ISSN = {0176-4276},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 64 of file MyReferences.bib
+ :  
+ :  %     PAGES = {xvi+530},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 81 of file MyReferences.bib
+ :  
+ :  %      ISSN = {0898-1221},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 99 of file MyReferences.bib
+ :  
+ :  %      ISSN = {0377-0427},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 119 of file MyReferences.bib
+ :  
+ :  %      ISSN = {0377-0427},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 137 of file MyReferences.bib
+ :  
+ :  %      ISSN = {1019-7168},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 155 of file MyReferences.bib
+ :  
+ :  %      ISSN = {1019-7168},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 173 of file MyReferences.bib
+ :  
+ :  %      ISSN = {1064-8275},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 191 of file MyReferences.bib
+ :  
+ :  %      ISSN = {0377-0427},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 206 of file MyReferences.bib
+ :  
+ :  %     PAGES = {143},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+
+Done.
+You've used 14 entries,
+            3225 wiz_defined-function locations,
+            881 strings with 8303 characters,
+and the built_in function-call counts, 6599 in all, are:
+= -- 601
+> -- 237
+< -- 15
++ -- 92
+- -- 72
+* -- 545
+:= -- 1154
+add.period$ -- 26
+call.type$ -- 14
+change.case$ -- 89
+chr.to.int$ -- 17
+cite$ -- 14
+duplicate$ -- 279
+empty$ -- 472
+format.name$ -- 102
+if$ -- 1390
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 99
+newline$ -- 103
+num.names$ -- 56
+pop$ -- 61
+preamble$ -- 1
+purify$ -- 80
+quote$ -- 0
+skip$ -- 202
+stack$ -- 0
+substring$ -- 433
+swap$ -- 56
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 2
+type$ -- 120
+warning$ -- 0
+while$ -- 64
+width$ -- 0
+write$ -- 201
+(There were 12 error messages)
