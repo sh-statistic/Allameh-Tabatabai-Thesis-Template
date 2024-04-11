@@ -9,7 +9,8 @@ LaTeX template for BSc/MSc/PhD theses of University of ALLAMEH Tabataba'i Univer
 این مخزن حاوی تغییرات اعمال شده به قالب لاتک دانشگاه علامه طباطبائی است که با هدف بهبود عملکرد و اصلاح ایرادات موجود ایجاد شده است.
 
 ## مشخصات نرم‌افزارهای مورد استفاده
-ویرایشگر TeXstudio نسخه ۴.۱.۱\n
+ویرایشگر TeXstudio نسخه ۴.۱.۱
+
 نرم افزار TeX Live 2023
 
 
