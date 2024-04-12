@@ -1,9 +1,7 @@
-# Allameh-Tabatabai-Thesis-Template
+# Allameh-Tabatabai-Thesis-Template-قالب لاتک پایان‌نامه دانشگاه علامه طباطبائی
 LaTeX template for BSc/MSc/PhD theses of University of ALLAMEH Tabataba'i University
 
 ---
-
-#  قالب لاتک دانشگاه علامه طباطبائی
 
 ## مقدمه
 این مخزن حاوی تغییرات اعمال شده به قالب لاتک دانشگاه علامه طباطبائی است که با هدف بهبود عملکرد و اصلاح ایرادات موجود ایجاد شده است.
