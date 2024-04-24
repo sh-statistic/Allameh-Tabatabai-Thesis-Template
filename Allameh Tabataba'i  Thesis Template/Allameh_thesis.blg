@@ -16,72 +16,12 @@ A level-1 auxiliary file: dicfa2en.aux
 A level-1 auxiliary file: abstract_en.aux
 A level-1 auxiliary file: cover_en.aux
 Database file #1: MyReferences.bib
-You're missing a field name---line 11 of file MyReferences.bib
- :  
- :  %      ISSN = {0010-4620},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 26 of file MyReferences.bib
- :  
- :  %      ISSN = {0029-5981},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 48 of file MyReferences.bib
- :  
- :  %      ISSN = {0176-4276},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 64 of file MyReferences.bib
- :  
- :  %     PAGES = {xvi+530},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 81 of file MyReferences.bib
- :  
- :  %      ISSN = {0898-1221},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 99 of file MyReferences.bib
- :  
- :  %      ISSN = {0377-0427},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 119 of file MyReferences.bib
- :  
- :  %      ISSN = {0377-0427},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 137 of file MyReferences.bib
- :  
- :  %      ISSN = {1019-7168},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 155 of file MyReferences.bib
- :  
- :  %      ISSN = {1019-7168},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 173 of file MyReferences.bib
- :  
- :  %      ISSN = {1064-8275},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 191 of file MyReferences.bib
- :  
- :  %      ISSN = {0377-0427},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 206 of file MyReferences.bib
- :  
- :  %     PAGES = {143},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 
 Done.
 You've used 14 entries,
             3225 wiz_defined-function locations,
-            881 strings with 8303 characters,
+            883 strings with 8313 characters,
 and the built_in function-call counts, 6599 in all, are:
 = -- 601
 > -- 237
@@ -120,4 +60,3 @@ warning$ -- 0
 while$ -- 64
 width$ -- 0
 write$ -- 201
-(There were 12 error messages)

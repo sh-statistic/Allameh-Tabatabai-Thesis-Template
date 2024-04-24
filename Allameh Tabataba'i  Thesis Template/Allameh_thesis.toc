@@ -1,5 +1,5 @@
-\contentsline {chapter}{فهرست جداول}{ت}{chapter*.2}%
-\contentsline {chapter}{فهرست تصاویر}{ث}{chapter*.3}%
+\contentsline {chapter}{فهرست جدول‌ها}{ت}{chapter*.2}%
+\contentsline {chapter}{فهرست شکل‌ها و نمودار‌ها}{ث}{chapter*.3}%
 \contentsline {chapter}{نمادها و علامت‌های اختصاری }{ج}{chapter*.4}%
 \contentsline {chapter}{\numberline {1}آشنایی و کلیات}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}مقدمه}{1}{section.1.1}%

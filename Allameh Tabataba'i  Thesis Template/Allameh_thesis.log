@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.10.26)  11 APR 2024 20:17
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.10.26)  24 APR 2024 20:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -920,121 +920,135 @@ apping=tex-text;"
 
 )
 
-Package fontspec Info: Could not resolve font "XB Niloofar/BI" (it probably
+Package fontspec Info: Could not resolve font "B Nazanin/BI" (it probably
 (fontspec)             doesn't exist).
 
 
-Package fontspec Info: Could not resolve font "XB Niloofar/B" (it probably
+Package fontspec Info: Could not resolve font "B Nazanin/B" (it probably
 (fontspec)             doesn't exist).
 
 
-Package fontspec Info: Could not resolve font "XB Niloofar/I" (it probably
+Package fontspec Info: Could not resolve font "B Nazanin/I" (it probably
 (fontspec)             doesn't exist).
 
 
-Package fontspec Info: Font family 'XBNiloofar(0)' created for font 'XB
-(fontspec)             Niloofar' with options
+Package fontspec Info: Font family 'BNazanin(0)' created for font 'B Nazanin'
+(fontspec)             with options
 (fontspec)             [RawFeature={script=arab},Ligatures=PersianTeX,Scale=1.1
 5].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1.15]"XB
-(fontspec)             Niloofar/OT:script=latn;language=dflt;script=arab;mappin
-g=persian-tex-text;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1.15]"B
+(fontspec)             Nazanin/OT:language=dflt;script=arab;mapping=persian-tex
+-text;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
-LaTeX Font Info:    Font shape `TU/XBNiloofar(0)/m/n' will be
+LaTeX Font Info:    Font shape `TU/BNazanin(0)/m/n' will be
 (Font)              scaled to size 12.59242pt on input line 54.
 
-Package fontspec Info: Font family 'Yas(0)' created for font 'Yas' with
-(fontspec)             options [Ligatures=PersianTeX].
+Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
+(fontspec)             New Roman' with options [Ligatures=PersianTeX,Scale=1].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"Yas/OT:script=latn;language=dflt;mapping=persian-tex
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1]"Times New
+(fontspec)             Roman/OT:script=latn;language=dflt;mapping=persian-tex-t
+ext;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->s*[1]"Times
+(fontspec)             New
+(fontspec)             Roman/OT:script=latn;language=dflt;+smcp;mapping=persian
+-tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[1]"Times New
+(fontspec)             Roman/B/OT:script=latn;language=dflt;mapping=persian-tex
 -text;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"Yas/B/OT:script=latn;language=dflt;mapping=persian-t
-ex-text;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"Yas/I/OT:script=latn;language=dflt;mapping=persian-t
-ex-text;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"Yas/BI/OT:script=latn;language=dflt;mapping=persian-
-tex-text;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"Times New
+(fontspec)             Roman/B/OT:script=latn;language=dflt;+smcp;mapping=persi
+an-tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->s*[1]"Times New
+(fontspec)             Roman/I/OT:script=latn;language=dflt;mapping=persian-tex
+-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"Times New
+(fontspec)             Roman/I/OT:script=latn;language=dflt;+smcp;mapping=persi
+an-tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->s*[1]"Times
+(fontspec)             New
+(fontspec)             Roman/BI/OT:script=latn;language=dflt;mapping=persian-te
+x-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"Times New
+(fontspec)             Roman/BI/OT:script=latn;language=dflt;+smcp;mapping=pers
+ian-tex-text;"
 
 Package xepersian-mathdigitspec Info: DefiningthedefaultPersianmathdigitsfontas
-'Yas' on input line 55.
+'Times New Roman' on input line 55.
 \symOPERATORS=\mathgroup6
 \symnew@mathbf@font@digits=\mathgroup7
 \symnew@mathit@font@digits=\mathgroup8
 \symnew@mathrm@font@digits=\mathgroup9
 
-Package fontspec Info: Font family 'LinLibertine(0)' created for font
-(fontspec)             'LinLibertine' with options [Ligatures=TeX].
+Package fontspec Info: Font family 'TimesNewRoman(1)' created for font 'Times
+(fontspec)             New Roman' with options [Ligatures=TeX].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"LinLibertine/OT:script=latn;language=dflt;mapping=te
-x-text;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->"LinLibertine/OT:script=latn;language=dflt;+smcp;mapp
-ing=tex-text;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"LinLibertine/B/OT:script=latn;language=dflt;mapping=
-tex-text;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->"LinLibertine/B/OT:script=latn;language=dflt;+smcp;ma
-pping=tex-text;"
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"LinLibertine/I/OT:script=latn;language=dflt;mapping=
-tex-text;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"Times New
+(fontspec)             Roman/OT:script=latn;language=dflt;+smcp;mapping=tex-tex
+t;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/B/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: <->"Times
+(fontspec)             New
+(fontspec)             Roman/B/OT:script=latn;language=dflt;+smcp;mapping=tex-t
+ext;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/I/OT:script=latn;language=dflt;mapping=tex-text;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->"LinLibertine/I/OT:script=latn;language=dflt;+smcp;ma
-pping=tex-text;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"LinLibertine/BI/OT:script=latn;language=dflt;mapping
-=tex-text;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+(fontspec)             <->"Times New
+(fontspec)             Roman/I/OT:script=latn;language=dflt;+smcp;mapping=tex-t
+ext;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/BI/OT:script=latn;language=dflt;mapping=tex-text;"
 
-LaTeX Info: Redefining \latinfont on input line 60.
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"Times New
+(fontspec)             Roman/BI/OT:script=latn;language=dflt;+smcp;mapping=tex-
+text;"
 
-Package fontspec Info: Font family 'lmroman10-regular(1)' created for font
-(fontspec)             'lmroman10-regular' with options
-(fontspec)             [Ligatures=TeX,ExternalLocation,BoldFont={lmroman10-bold
-},BoldItalicFont={lmroman10-bolditalic},ItalicFont={lmroman10-italic}].
+LaTeX Info: Redefining \latinfont on input line 56.
+
+Package fontspec Info: Could not resolve font "B Nazanin/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "B Nazanin/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "B Nazanin/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Font family 'BNazanin(1)' created for font 'B Nazanin'
+(fontspec)             with options
+(fontspec)             [RawFeature={script=arab},Ligatures=PersianTeX,Scale=1.2
+].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[lmroman10-regular]/OT:script=latn;language=dflt;map
-ping=tex-text;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1.2]"B
+(fontspec)             Nazanin/OT:language=dflt;script=arab;mapping=persian-tex
+-text;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"[lmroman10-bold]/OT:script=latn;language=dflt;mappin
-g=tex-text;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"[lmroman10-italic]/OT:script=latn;language=dflt;mapp
-ing=tex-text;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"[lmroman10-bolditalic]/OT:script=latn;language=dflt;
-mapping=tex-text;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
-LaTeX Info: Redefining \latinfont on input line 66.
 
 Package fontspec Info: Could not resolve font "IranNastaliq/I" (it probably
 (fontspec)             doesn't exist).
@@ -1066,62 +1080,66 @@ den=1;script=arab;mapping=persian-tex-text;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 
-Package fontspec Info: Could not resolve font "XB Niloofar/I" (it probably
+Package fontspec Info: Could not resolve font "B Nazanin/I" (it probably
 (fontspec)             doesn't exist).
 
 
-Package fontspec Info: Could not resolve font "XB Niloofar/BI" (it probably
+Package fontspec Info: Could not resolve font "B Nazanin/BI" (it probably
 (fontspec)             doesn't exist).
 
 
-Package fontspec Info: Could not resolve font "XB Niloofar/I" (it probably
+Package fontspec Info: Could not resolve font "B Nazanin/I" (it probably
 (fontspec)             doesn't exist).
 
 
-Package fontspec Info: Font family 'XBNiloofar(1)' created for font 'XB
-(fontspec)             Niloofar' with options
+Package fontspec Info: Font family 'BNazanin(2)' created for font 'B Nazanin'
+(fontspec)             with options
 (fontspec)             [RawFeature={script=arab},Ligatures=PersianTeX,Scale=1.5
-,BoldFont=XB
-(fontspec)             Niloofar,BoldFeatures={FakeBold=1}].
+,BoldFont=B
+(fontspec)             Nazanin,BoldFeatures={FakeBold=1}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1.5]"XB
-(fontspec)             Niloofar/OT:script=latn;language=dflt;script=arab;mappin
-g=persian-tex-text;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1.5]"B
+(fontspec)             Nazanin/OT:language=dflt;script=arab;mapping=persian-tex
+-text;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[1.5]"XB
-(fontspec)             Niloofar/OT:script=latn;language=dflt;embolden=1;script=
-arab;mapping=persian-tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[1.5]"B
+(fontspec)             Nazanin/OT:language=dflt;embolden=1;script=arab;mapping=
+persian-tex-text;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 
-Package fontspec Info: Font family 'XBTitre(0)' created for font 'XB Titre'
+Package fontspec Info: Could not resolve font "B Nazanin/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "B Nazanin/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "B Nazanin/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Font family 'BNazanin(3)' created for font 'B Nazanin'
 (fontspec)             with options
 (fontspec)             [RawFeature={script=arab},Ligatures=PersianTeX,Scale=1,B
-oldFont=XB
-(fontspec)             Titre,BoldFeatures={FakeBold=1}].
+oldFont=B
+(fontspec)             Nazanin,BoldFeatures={FakeBold=1}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1]"XB
-(fontspec)             Titre/OT:script=latn;language=dflt;script=arab;mapping=p
-ersian-tex-text;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1]"B
+(fontspec)             Nazanin/OT:language=dflt;script=arab;mapping=persian-tex
+-text;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[1]"XB
-(fontspec)             Titre/OT:script=latn;language=dflt;embolden=1;script=ara
-b;mapping=persian-tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[1]"B
+(fontspec)             Nazanin/OT:language=dflt;embolden=1;script=arab;mapping=
+persian-tex-text;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.: <->s*[1]"XB
-(fontspec)             Titre/I/OT:script=latn;language=dflt;script=arab;mapping
-=persian-tex-text;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->s*[1]"XB
-(fontspec)             Titre/I/OT:script=latn;language=dflt;script=arab;mapping
-=persian-tex-text;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 
 Package fontspec Info: Font family 'PersianModern(0)' created for font
@@ -1148,7 +1166,7 @@ g=persian-tex-text;"
 ng=persian-tex-text;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
-LaTeX Info: Redefining \persianfont on input line 87.
+LaTeX Info: Redefining \persianfont on input line 86.
 \c@theo=\count371
 \c@lem=\count372
 \c@example=\count373
@@ -1234,6 +1252,8 @@ File: enatu.jpg Graphic file (type bmp)
 <enatu.jpg>
 LaTeX Font Info:    Font shape `TU/IranNastaliq(0)/m/n' will be
 (Font)              scaled to size 21.9pt on input line 11.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
+(Font)              scaled to size 10.95pt on input line 44.
 ) [1
 
 
@@ -1259,12 +1279,34 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 28.
 (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Font shape `TU/Yas(0)/bx/n' in size <10.95> not available
-(Font)              Font shape `TU/Yas(0)/b/n' tried instead on input line 28.
-LaTeX Font Info:    Font shape `TU/Yas(0)/bx/n' in size <8> not available
-(Font)              Font shape `TU/Yas(0)/b/n' tried instead on input line 28.
-LaTeX Font Info:    Font shape `TU/Yas(0)/bx/n' in size <6> not available
-(Font)              Font shape `TU/Yas(0)/b/n' tried instead on input line 28.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 28.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 28.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/bx/n' in size <10.95> not a
+vailable
+(Font)              Font shape `TU/TimesNewRoman(0)/b/n' tried instead on input
+ line 28.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
+(Font)              scaled to size 10.95pt on input line 28.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/bx/n' in size <8> not avail
+able
+(Font)              Font shape `TU/TimesNewRoman(0)/b/n' tried instead on input
+ line 28.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
+(Font)              scaled to size 8.0pt on input line 28.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/bx/n' in size <6> not avail
+able
+(Font)              Font shape `TU/TimesNewRoman(0)/b/n' tried instead on input
+ line 28.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
+(Font)              scaled to size 6.0pt on input line 28.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/it' will be
+(Font)              scaled to size 10.95pt on input line 28.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/it' will be
+(Font)              scaled to size 8.0pt on input line 28.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/it' will be
+(Font)              scaled to size 6.0pt on input line 28.
  [3]
 File: sign.jpg Graphic file (type bmp)
 <sign.jpg>
@@ -1327,7 +1369,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--15
 \openout2 = `list_symb.aux'.
 
  (./List_symb.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 7--22
+Underfull \hbox (badness 10000) in paragraph at lines 7--24
 [][]
  []
 
@@ -1339,16 +1381,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--22
 
  (./chap1.tex
 فصل 1.
-LaTeX Font Info:    Font shape `TU/Yas(0)/bx/n' in size <9> not available
-(Font)              Font shape `TU/Yas(0)/b/n' tried instead on input line 10.
-LaTeX Font Info:    Font shape `TU/Yas(0)/bx/n' in size <5> not available
-(Font)              Font shape `TU/Yas(0)/b/n' tried instead on input line 10.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
+(Font)              scaled to size 20.74pt on input line 2.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
+(Font)              scaled to size 14.4pt on input line 8.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 10.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
+(Font)              scaled to size 5.0pt on input line 10.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/bx/n' in size <9> not avail
+able
+(Font)              Font shape `TU/TimesNewRoman(0)/b/n' tried instead on input
+ line 10.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
+(Font)              scaled to size 9.0pt on input line 10.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/bx/n' in size <5> not avail
+able
+(Font)              Font shape `TU/TimesNewRoman(0)/b/n' tried instead on input
+ line 10.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
+(Font)              scaled to size 5.0pt on input line 10.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/it' will be
+(Font)              scaled to size 9.0pt on input line 10.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/it' will be
+(Font)              scaled to size 5.0pt on input line 10.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
+(Font)              scaled to size 12.0pt on input line 22.
 [1
 
 
 
 
-] [2]) [3]
+]
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 58.
+ [2]) [3]
 \openout2 = `chap2.aux'.
 
  (./chap2.tex
@@ -1384,7 +1451,12 @@ File: figure22.eps Graphic file (type eps)
 <figure22.eps>
 File: figure23.eps Graphic file (type eps)
 <figure23.eps>
- [13] [14]) [15] [16]
+ [13] [14]
+Overfull \hbox (8.55237pt too wide) detected at line 235
+[]
+ []
+
+) [15] [16]
 \openout2 = `chap4.aux'.
 
  (./chap4.tex
@@ -1404,15 +1476,13 @@ File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 27.
-
-Missing character: There is no آ (U+0622) in font [lmroman10-regular]/OT:script
-=latn;language=dflt;mapping=tex-text;!
 ) [18
 
 
 
 
-] (./Allameh_thesis.bbl [19
+]
+(./Allameh_thesis.bbl [19
 
 
 
@@ -1420,7 +1490,7 @@ Missing character: There is no آ (U+0622) in font [lmroman10-regular]/OT:script
 \openout2 = `dicfa2en.aux'.
 
  (./dicfa2en.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 4--65
+Underfull \hbox (badness 10000) in paragraph at lines 4--67
 [][]
  []
 
@@ -1445,31 +1515,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--34
  (./cover_en.tex
 File: enatu.jpg Graphic file (type bmp)
 <enatu.jpg>
-
-Missing character: There is no ُ (U+064F) in font [lmroman10-regular]/OT:script
-=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no ُ (U+064F) in font [lmroman10-regular]/OT:script
-=latn;language=dflt;mapping=tex-text;!
 ) [23
 
 
 
-] 
+]
+
 enddocument/afterlastpage: lastpage setting LastPage.
 (./Allameh_thesis.aux (./cover_fa.aux) (./taeid.aux) (./TashVaGad.aux)
 (./abstract_fa.aux) (./list_symb.aux) (./chap1.aux) (./chap2.aux) (./chap3.aux)
 (./chap4.aux) (./peyvast1.aux) (./dicfa2en.aux) (./abstract_en.aux)
 (./cover_en.aux))
 Package rerunfilecheck Info: File `Allameh_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 3477FDFD03CE34BFCA676C1AC960DC36;6643.
+(rerunfilecheck)             Checksum: 950C99D8CEC6BED2A6804282F786E0A0;6755.
  ) 
 Here is how much of TeX's memory you used:
- 20910 strings out of 476683
- 389743 string characters out of 5807574
+ 20878 strings out of 476683
+ 389803 string characters out of 5807574
  1872012 words of memory out of 5000000
- 40498 multiletter control sequences out of 15000+600000
- 521766 words of font info for 173 fonts, out of 8000000 for 9000
+ 40488 multiletter control sequences out of 15000+600000
+ 521638 words of font info for 157 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 92i,17n,94p,1428b,1276s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 92i,17n,94p,1426b,1276s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on Allameh_thesis.pdf (37 pages).
